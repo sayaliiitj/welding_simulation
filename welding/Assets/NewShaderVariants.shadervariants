@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: UIE_FORCE_GAMMA
+        passType: 0
+  - first: {fileID: 19011, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    second:
+      variants:
+      - keywords: _OUTPUT_DEPTH
+        passType: 0
+  - first: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: INSTANCING_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: INSTANCING_ON _MAIN_LIGHT_SHADOWS _OCCLUSIONMAP
+        passType: 13
+      - keywords: _ALPHAPREMULTIPLY_ON _MAIN_LIGHT_SHADOWS _SHADOWS_SOFT _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+      - keywords: _ALPHAPREMULTIPLY_ON _MAIN_LIGHT_SHADOWS _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _OCCLUSIONMAP
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _OCCLUSIONMAP _SHADOWS_SOFT
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _SHADOWS_SOFT
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: e19b5bb6cb8e91e43b1b5d81a069296f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 93446b5c5339d4f00b85c159e1159b7c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 44245ab89240f51459a5077d7145c452, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 478ce3626be7a5f4ea58d6b13f05a2e4, type: 3}
+    second:
+      variants:
+      - keywords: _VOLUME_TRANSMISSION_OFF
+        passType: 8
+      - keywords: _ALPHAPREMULTIPLY_ON _MAIN_LIGHT_SHADOWS _SHADOWS_SOFT _SURFACE_TYPE_TRANSPARENT
+          _VOLUME_TRANSMISSION_OFF
+        passType: 13
+      - keywords: _ALPHAPREMULTIPLY_ON _MAIN_LIGHT_SHADOWS _SURFACE_TYPE_TRANSPARENT
+          _VOLUME_TRANSMISSION_OFF
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _SHADOWS_SOFT _VOLUME_TRANSMISSION_OFF
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _VOLUME_TRANSMISSION_OFF
+        passType: 13
+      - keywords: _VOLUME_TRANSMISSION_OFF
+        passType: 13

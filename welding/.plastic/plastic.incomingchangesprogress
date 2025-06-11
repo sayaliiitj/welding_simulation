@@ -1,0 +1,20 @@
+[
+  {
+    "MountId": "56e62dd7-241f-41e9-8c6b-dd4ca4513e62",
+    "AncestorCsetIds": [
+      14
+    ],
+    "SourceCsetId": 15,
+    "DestinationCsetId": 14,
+    "FileConflicts": [
+      {
+        "Path": "/Assets/welding_unity.unity",
+        "ItemId": 1592,
+        "ParentItemId": 1543,
+        "BaseRevId": 3383,
+        "SourceRevId": 3442,
+        "DestinationRevId": 3383
+      }
+    ]
+  }
+]
